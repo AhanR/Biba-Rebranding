@@ -28,7 +28,7 @@ function App() {
   const [currentIndex, setCurrentIndex] = useState(1);
   const [history, setHistory] = useState([])
   const slides = [
-    (<Slide src="1" id = {1} key={"slide1"} style = {{width : width, height : height}} transition = {del} setCurrentSlide = {setCurrentIndex} buttons = {["yes", "no", "maybe"]}/>),
+    (<Slide src="1" id = {1} key={"slide1"} style = {{width : width, height : height}} transition = {del} setCurrentSlide = {setCurrentIndex} buttons = {["fear of being judged abcdefg", "no", "maybe"]}/>),
     (<Slide src="2" id = {2} key={"slide2"} style = {{width : width, height : height}} transition = {del} setCurrentSlide = {setCurrentIndex} buttons = {["yes1", "no1"]}/>),
     (<Slide src="3" id = {3} key={"slide3"} style = {{width : width, height : height}} transition = {del} setCurrentSlide = {setCurrentIndex} buttons = {["yes2", "no2"]}/>),
     (<Slide src="4" id = {4} key={"slide4"} style = {{width : width, height : height}} transition = {del} setCurrentSlide = {setCurrentIndex} buttons = {["yes2", "no2"]}/>),
